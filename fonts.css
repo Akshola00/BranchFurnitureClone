@@ -1,0 +1,70 @@
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+  }
+  @font-face {
+    font-family: Baskervville;
+    src: url(./fonts/Baskervville-Italic.ttf);
+  }
+  @font-face {
+    font-family: annexxus;
+    src: url(./fonts/Annexxus_Demo.ttf);
+  }
+  @font-face {
+    font-family: bembo;
+    src: url(./fonts/Bembo-Bold-Font.ttf);
+  }
+  @font-face {
+    font-family: Futura;
+    src: url(./fonts/Futura\ Round.ttf);
+  }
+  
+  @font-face {
+    font-family: ItalianOldStyle;
+    src: url(./fonts/ItalianOldStyleMTStd.otf);
+  }
+  @font-face {
+    font-family: Orbitron;
+    src: url(./fonts/Orbitron-Regular.ttf);
+  }
+  @font-face {
+    font-family: electra;
+    src: url(./fonts/Electra\ LT\ Std\ Regular.otf);
+  }
+  @font-face {
+    font-family: SchulVokal;
+    src: url(./fonts/SchulVokalDotless.ttf);
+  }
+  @font-face {
+    font-family: verah;
+    src: url(./fonts/Verah___.ttf);
+  }
+  @font-face {
+    font-family: canela;
+    src: url(./fonts/FontsFree-Net-Canela-Regular.ttf);
+  }
+  @font-face {
+    font-family: optima;
+    src: url(./fonts/OPTIMA_B.TTF);
+  }
+  @font-face {
+    font-family: tangerine;
+    src: url(./fonts/Tangerine-Regular.ttf);
+  }
+  @font-face {
+    font-family: RobotoSlab ;
+    src: url(./fonts/RobotoSlab-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Quicksand;
+    src: url(./fonts/Quicksand_Book.otf);
+    }
+  @font-face {
+    font-family: ubuntu;
+    src: url(./fonts/Ubuntu-Regular.ttf);
+    }

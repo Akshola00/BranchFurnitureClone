@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+    <style>
+        body {
+            /* width: 100%; */
+            height: 95vh;
+            /* display: flex; */
+            /* align-items: center; */
+            /* justify-content: center; */
+            background-color: #EFEFEF;
+        }
+
+        .advert-cards {
+            width: 90%;
+            padding: 40px 0;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: center;
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+        }
+
+        .card-holder {
+            padding: 10px;
+            /* border: 1px solid #777; */
+            width: 85%;
+            height: 60%;
+            overflow: hidden;
+        }
+
+        .card {
+            width: 250px;
+            height: 300px;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .7);
+            overflow: hidden;
+        }
+
+        .card:hover>.card-img>img {
+            transform: scale(1.02);
+        }
+
+        .border-box-remove {
+            box-sizing: border-box;
+        }
+
+        .card-img {
+            overflow: hidden;
+            height: 180px;
+        }
+
+        .card-img>img {
+            display: block;
+            width: 100%;
+            transition: 250ms transform ease-in-out;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .card-info {
+            padding: 15px;
+        }
+
+        .name-price {
+            justify-content: space-between;
+        }
+        @font-face {
+    font-family: Quicksand;
+    src: url(./fonts/Quicksand_Book.otf);
+  }
+        .card-name {
+            font-size: 1.3rem;
+            font-family: Quicksand;
+        }
+
+        @font-face {
+            font-family: ItalianOldStyle;
+            src: url(./fonts/ItalianOldStyleMTStd.otf);
+        }
+        @font-face {
+            font-family: canela;
+            src: url(./fonts/FontsFree-Net-Canela-Regular.ttf);
+        }
+
+        .card-description {
+            padding-top: 10px;
+            color: #777;
+            font-size: 1.1rem;
+            font-family: ItalianOldStyle;
+        }
+        .card-price{
+            font-family: Quicksand;
+        }
+        .swiper-navBtn {
+            color: brown;
+            transition: all 400s ease-in;
+        }
+
+        .swiper-navBtn:hover {
+            color: coral;
+        }
+
+        .swiper-pagination-bullet {
+            background-color: brown;
+        }
+
+        @media screen and (max-width: 650px) {
+            .swiper-navBtn {
+                display: none;
+            }
+        }
+
+
+        .heading{
+            padding-top: 40px;
+            font-size: 2rem;
+            text-align: center;
+            font-family: canela ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">Our BestSellers</div>
+    <main class="advert-cards swiper">
+        <section class="center card-holder">
+            <div class="card-wrapper swiper-wrapper">
+
+                <!-- Content -->
+                <div class="card swiper-slide">
+                    <div class="card-img">
+                        <img src="./images/peter-broomfield-m3m-lnR90uM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <div class="center border-box-remove name-price">
+                            <strong class="border-box-remove card-name">Economic Chair</strong>
+                            <div class="border-box-remove card-price">$499+</div>
+                        </div>
+                        <div class="card-description">Eight Points of Adjustments</div>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="card swiper-slide">
+                    <div class="card-img">
+                        <img src="./images/roberto-nickson-Yp9FdEqaCdk-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <div class="center border-box-remove name-price">
+                            <strong class="border-box-remove card-name">Economic Chair</strong>
+                            <div class="border-box-remove card-price">$499+</div>
+                        </div>
+                        <div class="card-description">Eight Points of Adjustments</div>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="card swiper-slide">
+                    <div class="card-img">
+                        <img src="./images/yuvraj-singh-0L2Y19nsYmY-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <div class="center border-box-remove name-price">
+                            <strong class="border-box-remove card-name">Economic Chair</strong>
+                            <div class="border-box-remove card-price">$499+</div>
+                        </div>
+                        <div class="card-description">Eight Points of Adjustments</div>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="card swiper-slide">
+                    <div class="card-img">
+                        <img src="./images/karla-alexander-2ct89Ann_lk-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <div class="center border-box-remove name-price">
+                            <strong class="border-box-remove card-name">Economic Chair</strong>
+                            <div class="border-box-remove card-price">$499+</div>
+                        </div>
+                        <div class="card-description">Eight Points of Adjustments</div>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="card swiper-slide">
+                    <div class="card-img">
+                        <img src="./images/bradley-dunn-t0Muum_lbWM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <div class="center border-box-remove name-price">
+                            <strong class="border-box-remove card-name">Economic Chair</strong>
+                            <div class="border-box-remove card-price">$499+</div>
+                        </div>
+                        <div class="card-description">Eight Points of Adjustments</div>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="card swiper-slide">
+                    <div class="card-img">
+                        <img src="./images/karla-alexander-2ct89Ann_lk-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <div class="center border-box-remove name-price">
+                            <strong class="border-box-remove card-name">Economic Chair</strong>
+                            <div class="border-box-remove card-price">$499+</div>
+                        </div>
+                        <div class="card-description">Eight Points of Adjustments</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </main>
+    <script src="./swiper-bundle.min.js"></script>
+    <script>
+
+        var swiper = new Swiper(".card-holder", {
+            slidesPerView: 3,
+            spaceBetween: 25,
+            loop: true,
+            centerSlide: true,
+            fade: true,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: 'true'
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                650: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 3,
+                },
+            }
+        });
+    </script>
+</body>
+
+</html>

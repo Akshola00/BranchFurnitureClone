@@ -1,0 +1,138 @@
+.section-6{
+    height: 40vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+    color: black;
+}
+.second-text{
+    width: 40%;
+    font-size: 1.6rem;
+    font-family: system-ui;
+    color: black;
+}
+
+.section-7{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.text-heading{
+    font-size: 2rem;
+    font-family: electra;
+    color: black;
+    /* width: 70%; */
+}
+
+  .section-7-div-1{
+    width: 30%;
+    /* border: 4px solid blue; */
+  }
+  .section-7-div-2{
+    padding: 15px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .front-quotation{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .front-quotation::before {
+    content: "\201C";
+    font-size: 3rem;
+    padding: 0 0 2px ;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .quotation{
+    font-size: 1.2rem;
+    font-family: system-ui;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* .front-quotation::after {
+    content: "\201D";
+    font-size: 1em;
+  } */
+  .front-quotation{
+    font-size: 2rem;
+    
+  }
+  .button-look-alike{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .button-look-alike > div {
+    font-size: 20px;
+    font-family: electra;
+  }
+
+  .button-look-alike > div:nth-child(2) {
+    border-bottom: 3px solid lightskyblue;
+  }
+
+  .image-container{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* border: 1px solid green; */
+   
+
+  }
+  .image-container > img {
+    width: 100%;
+    /* aspect-ratio: 16 / 9; */
+    object-fit: cover;
+    object-position: center;
+  }
+  .border-removal{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .section-7-testimony{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    width: 150px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5); 
+  }
+  .section-7-testimony-heading-container{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    align-items: center;
+    
+  }
+  .testimony-text{
+    text-align: center;
+    font-size: .8rem;
+    font-family: RobotoSlab;
+    /* color: burlywood; */
+  }
+.testimony-name{
+    font-family: verah;
+}
+.testimony-who{
+    font-family: system-ui;
+    color: silver;
+}
