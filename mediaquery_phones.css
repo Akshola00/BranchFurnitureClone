@@ -1,8 +1,14 @@
 @media (max-width : 595px) {
     body{
         background-color: antiquewhite;
+        margin: 10px;
     }
     .showing > div, .prods > div {
         display: block;
     }
+    .aside > h3 {
+        display: flex;
+    }
+
+    
 }
