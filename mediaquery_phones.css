@@ -6,9 +6,7 @@
     .showing > div, .prods > div {
         display: block;
     }
-    .aside > h3 {
-        display: flex;
+    .aside > h3{ 
+        text-align: center;
     }
-
-    
 }
