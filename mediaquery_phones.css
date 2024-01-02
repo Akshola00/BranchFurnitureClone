@@ -5,4 +5,7 @@
     .showing > div, .prods > div {
         display: block;
     }
+    .aside > h3{ 
+        text-align: center;
+    }
 }
