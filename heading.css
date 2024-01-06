@@ -208,11 +208,11 @@ nav > ul > li:hover {
   margin-top: 30px;
   padding: 10px 35px;
 }
-.my-standard-button{
+.my-standard-button {
   background-color: lightblue;
   border: 1px solid lightblue;
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, .2) 0 2px 4px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px 0;
   box-sizing: border-box;
   color: black;
   cursor: pointer;
@@ -220,20 +220,18 @@ nav > ul > li:hover {
   font-size: 1.4rem;
   outline: none;
   outline: 0;
-  
+
   text-align: center;
   transition: all 350ms ease-in;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-
 }
 
 .my-standard-button:hover {
-  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-  background-color: rgb(189, 253, 253)
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  background-color: rgb(189, 253, 253);
 }
-
 
 .othersection > p {
   font-size: 1.5rem;
@@ -245,7 +243,7 @@ nav > ul > li:hover {
 .othersection > article > div {
   padding: 30px;
 }
-.othersection > article{
+.othersection > article {
   display: flex;
   flex-direction: column;
 }
@@ -301,25 +299,29 @@ nav > ul > li:hover {
   background: skyblue;
 }
 
-.fourth-section{
-  height: 90hvh; display: flex;
+.fourth-section {
+  height: 90hvh;
+  display: flex;
 }
 
-.fourth-section-div{
-  width: 40%; padding-top: 150px; padding-left: 5%;
+.fourth-section-div {
+  width: 40%;
+  padding-top: 150px;
+  padding-left: 5%;
 }
-.a-div-header{
-  margin: 0; color: skyblue; font-size: 2.75rem; font-family: ItalianOldStyle
+.a-div-header {
+  margin: 0;
+  color: skyblue;
+  font-size: 2.75rem;
+  font-family: ItalianOldStyle;
 }
-.font-size-setting{
+.font-size-setting {
   font-size: 1.5rem;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
 }
-.our-story-button{
+.our-story-button {
   padding: 10px 48px;
 }
-
-
 
 .advert-cards {
   width: 90%;
@@ -345,11 +347,11 @@ nav > ul > li:hover {
 .card {
   width: 250px;
   height: 300px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .7);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.7);
   overflow: hidden;
 }
 
-.card:hover>.card-img>img {
+.card:hover > .card-img > img {
   transform: scale(1.02);
 }
 
@@ -362,7 +364,7 @@ nav > ul > li:hover {
   height: 180px;
 }
 
-.card-img>img {
+.card-img > img {
   display: block;
   width: 100%;
   transition: 250ms transform ease-in-out;
@@ -389,7 +391,7 @@ nav > ul > li:hover {
   font-size: 1.1rem;
   font-family: ItalianOldStyle;
 }
-.card-price{
+.card-price {
   font-family: Quicksand;
 }
 .swiper-navBtn {
@@ -407,29 +409,99 @@ nav > ul > li:hover {
 
 @media screen and (max-width: 650px) {
   .swiper-navBtn {
-      display: none;
+    display: none;
   }
 }
 
-
-.heading{
+.heading {
   padding-top: 40px;
   font-size: 2rem;
   text-align: center;
-  font-family: canela ;
+  font-family: canela;
 }
 
-.section-5{
+.section-5 {
   margin-top: 200px;
   background-color: rgb(246, 245, 245);
   padding-bottom: 30px;
 }
-.section-5-button{
+.section-5-button {
   align-items: center;
   justify-content: center;
   display: flex;
 }
-.section-5-button > button{
-margin-top: 20px;
+.section-5-button > button {
+  margin-top: 20px;
 }
 
+.first_blue_square {
+  min-width: 7rem;
+  max-width: 7rem;
+  width: 7rem;
+  height: 12cm;
+  background-color: lightskyblue;
+}
+.second_blue_square {
+  min-width: 7rem;
+  max-width: 7rem;
+  display: flex;
+  flex-direction: column;
+  width: 7rem;
+  height: 11.8cm;
+  border: 3px dotted lightskyblue;
+  align-items: center;
+}
+
+.second_blue_square_inner_text {
+  position: absolute;
+  font-size: 1rem;
+  font-family: ubuntu;
+  margin-top: 195px;
+}
+.second_blue_square_inner_square {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 7rem;
+  height: 6cm;
+  background-color: lightskyblue;
+  position: relative;
+  margin-top: 220px;
+}
+.squrares_description_texts {
+  font-size: 1.3rem;
+  color: black;
+}
+.squrares_description {
+  display: flex;
+  height: 12cm;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: right;
+}
+.squares_section {
+  width: 35%;
+  display: flex;
+  gap: 2rem;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.first_blue_square_text {
+  font-family: ItalianOldStyle;
+  position: absolute;
+  margin-left: 240px;
+  color: black;
+  margin-top: 29rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.second_blue_square_text {
+  font-family: ItalianOldStyle;
+  font-size: 2.1rem;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 380px;
+  color: black;
+  margin-top: 29rem;
+}
