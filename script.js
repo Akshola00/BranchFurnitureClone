@@ -2,6 +2,25 @@
 //     document.getElementById('promo').style.display = 'none'
 // })
 
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            
+        } else {
+            entry.target.classList.remove('show');
+            
+        }
+    });
+})
+const hiddenElements = document.querySelectorAll('.hidden')
+hiddenElements.forEach((el) => observer.observe(el))
+
+
+
 var swiper = new Swiper(".card-holder", {
     slidesPerView: 3,
     spaceBetween: 25,
