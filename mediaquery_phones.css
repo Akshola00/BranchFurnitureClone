@@ -9,4 +9,7 @@
     .aside > h3{ 
         text-align: center;
     }
+    nav > ul {
+        display: none;
+    }
 }
