@@ -440,8 +440,11 @@ nav > ul > li:hover {
 }
 
 @media screen and (max-width: 650px) {
-  .swiper-navBtn {
-    margin-left: 10px;
+  .swiper-navBtn:nth-child(2) {
+    margin-left: 20px;
+  }
+  .swiper-navBtn:nth-child(1) {
+    margin-left: -20px;
   }
 }
 
