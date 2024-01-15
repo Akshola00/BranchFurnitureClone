@@ -48,6 +48,13 @@ nav {
 .contactme {
   padding: 10px 15px;
 }
+.hamburger {
+  display: none;
+  background-color: silver;
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+}
 nav > ul {
   display: flex;
   gap: 2rem;
@@ -63,11 +70,13 @@ nav > ul > li:hover {
   border-bottom: 3px solid;
 }
 .wlcmimg {
+  
   background: url(./images/brennen-clifford-DlUVdeI4ec4-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 30vh;
   padding-bottom: 30vh;
+  
   object-fit: cover;
   object-position: center;
 }
@@ -75,7 +84,7 @@ nav > ul > li:hover {
   color: white;
   /* -webkit-text-stroke: 2px white; */
   background: none;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-family: RobotoSlab;
   margin-left: 2%;
   margin-top: -3%;
@@ -432,7 +441,7 @@ nav > ul > li:hover {
 
 @media screen and (max-width: 650px) {
   .swiper-navBtn {
-    display: none;
+    margin-left: 10px;
   }
 }
 

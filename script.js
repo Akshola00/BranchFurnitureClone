@@ -1,6 +1,6 @@
-// document.getElementById('promoclose').addEventListener('click', e => {
-//     document.getElementById('promo').style.display = 'none'
-// })
+document.getElementById('promoclose').addEventListener('click', e => {
+    document.getElementById('promo').style.display = 'none'
+})
 
 
 
