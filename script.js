@@ -1,6 +1,25 @@
+function print(word) {
+    console.log(word)
+}
+
 document.getElementById('promoclose').addEventListener('click', e => {
     document.getElementById('promo').style.display = 'none'
 })
+
+document.getElementById("hamburger").addEventListener('click', e => {
+    const ddElement = document.getElementById("dd");
+    const isOn = ddElement.classList.contains("on");
+
+    ddElement.classList.toggle("on");
+
+    document.querySelectorAll("#myhamburger").forEach(item => {
+        if (isOn) {
+            item.style.backgroundColor = 'silver';
+        } else {
+            item.style.backgroundColor = 'dimgray';
+        }
+    });
+});
 
 
 
@@ -9,10 +28,10 @@ const observer = new IntersectionObserver((entries) => {
         console.log(entry)
         if (entry.isIntersecting) {
             entry.target.classList.add("show");
-            
+
         } else {
             entry.target.classList.remove('show');
-            
+
         }
     });
 })

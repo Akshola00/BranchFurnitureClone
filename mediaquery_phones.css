@@ -19,12 +19,17 @@
     padding-bottom: 45px;
     background-color: lightgray;
     width: 100%;
-    /* display: flex; */
     align-items: center;
     gap: 1rem;
     flex-direction: column;
     margin-top: 445px;
     z-index: 1;
+  }
+  .bold{
+    background-color: dimgray;
+  }
+  .on{
+    display: flex;
   }
   nav > ul > li {
     padding: 10px 15px;
@@ -247,15 +252,16 @@
     padding-right: 30px;
     padding-left: 30px;
   }
+
   .section-7 {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    border: 1px solid blue;
+    border: 3px solid blue;
     display: flex;
     flex-direction: column;
-    align-items:normal;
+    align-items: center;
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem;
   }
 
   .text-heading {
@@ -263,13 +269,11 @@
     font-family: electra;
     color: black;
     text-align: center;
-    width: 70%;
-    border: 1px solid;
   }
 
   .section-7-div-1 {
-    width: 30%;
-    /* border: 4px solid blue; */
+    width: 100%;
+    border: 0px solid blue;
   }
   .section-7-div-2 {
     padding: 15px;
@@ -278,7 +282,61 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
-  footer{
-    display: none;
+  .front-quotation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .front-quotation::before {
+    content: "\201C";
+    font-size: 3rem;
+    height: 20px;
+    padding: 0 0 2px;
+    margin: 0;
+    
+    box-sizing: border-box;
+  }
+  .quotation {
+    font-size: 1.2rem;
+    font-family: system-ui;
+    
+    text-align:center;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .section-7-div-2{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .testimony-text{
+    
+    font-size: 1rem;
+    text-align: left;
+    
+  }
+.testimony-name{
+    font-family: verah;
+    font-size: 1rem;
+}
+.testimony-who{
+    font-size: 1rem;
+    text-align: center;
+    font-family: system-ui;
+    color: silver;
+}
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .messsageme{
+    position: absolute; position: fixed; bottom: 15px; right: 15px;  width: 40px; height: 40px;
   }
 }

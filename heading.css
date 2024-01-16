@@ -45,6 +45,11 @@ nav {
   position: static;
   top: 0;
 }
+
+.messsageme{
+  position: absolute; position: fixed; bottom: 20px; right: 20px;  width: 70px; height: 70px;
+}
+
 .contactme {
   padding: 10px 15px;
 }
